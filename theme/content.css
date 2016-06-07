@@ -472,12 +472,12 @@ ul.searchresults {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background: transparent none 6px 8px no-repeat;
+	background: transparent none 2px 2px no-repeat;
 	border: 1px solid transparent;
 	font-size: 0.95em;
 	margin: 0.5em 1px 0 25px;
 	overflow: hidden;
-	padding: 5px !important;
+	padding: 7px 7px 7px 15px !important;
 }
 
 blockquote blockquote {
