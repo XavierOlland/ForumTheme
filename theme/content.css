@@ -306,7 +306,7 @@ dd.option {
 
 #topicreview {
 	padding-right: 5px;
-	overflow: auto;
+	overflow-y: scroll;
 	height: 300px;
 }
 
@@ -1144,6 +1144,141 @@ fieldset.polls dd div {
 	height:90px;
 	width:90px; bottom:0px; right:0;
 }
+.avatar-equipe-Gaulix {
+	background-image: url("./images/equipe/Les Gaulix.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Nibelheim.Persecutors {
+	background-image: url("./images/equipe/Nibelheim Persecutors.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Spiritueux.Oublies {
+	background-image: url("./images/equipe/Spiritueux Oublies.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-The_Expendables {
+	background-image: url("./images/equipe/The_Expendables.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Lustria.Bootleggers {
+	background-image: url("./images/equipe/Lustria Bootleggers.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Ia.Shub.Niggurath {
+	background-image: url("./images/equipe/ia Shub Niggurath.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Ringolevio.Frogs {
+	background-image: url("./images/equipe/Ringolevio Frogs.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Morts-back {
+	background-image: url("./images/equipe/Morts-back.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Pets.Trolleurs {
+	background-image: url("./images/equipe/Pets Trolleurs.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Garde.Lustrienne {
+	background-image: url("./images/equipe/Garde Lustrienne.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Rancuniers {
+	background-image: url("./images/equipe/Rancuniers.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Le.Krak.d.Vilneuv{
+	background-image: url("./images/equipe/Lé Krak d'Vilneuv.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Deux.sous.de.jugeote {
+	background-image: url("./images/equipe/Deux sous de jugeote.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Princes.des.Cendres {
+	background-image: url("./images/equipe/Princes des Cendres.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
+.avatar-equipe-Orklahoma.Drill {
+	background-image: url("./images/equipe/Orklahoma Drill.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+}
 
 /* Logos equipe
 ----------------------------------------*/
@@ -1155,9 +1290,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Psychos.Totems {
@@ -1168,9 +1300,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Black.Berrurier {
@@ -1181,9 +1310,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Nobilis.Gloria {
@@ -1194,9 +1320,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Compagnie.Torniole {
@@ -1207,9 +1330,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Granit.Smiths {
@@ -1220,9 +1340,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Songs.of.Anarchy {
@@ -1233,9 +1350,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Enfants.d.Itarillie {
@@ -1246,9 +1360,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Kings.of.the.Whip {
@@ -1259,9 +1370,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Tenoch.titz.Slann {
@@ -1272,9 +1380,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Atomic.Kaiju.Alpha {
@@ -1285,9 +1390,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Brasseurs.d.Ubersreik {
@@ -1298,9 +1400,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Dieux.de.l.Arene {
@@ -1311,9 +1410,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Beholders {
@@ -1324,9 +1420,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Breles.Toniques {
@@ -1337,9 +1430,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Total-Elf {
@@ -1350,9 +1440,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Plague.Carriers.Rats {
@@ -1363,9 +1450,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Skies.of.Arcadia {
@@ -1376,9 +1460,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Felons {
@@ -1389,9 +1470,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Elves.Darkside {
@@ -1402,9 +1480,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Couuuik {
@@ -1415,9 +1490,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-L.Gest.eud.KraBouiLerZ.RedZ {
@@ -1428,9 +1500,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Princes.de.la.Mer.Rouge {
@@ -1441,9 +1510,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Forbes.Challengers {
@@ -1454,9 +1520,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-CDD {
@@ -1467,9 +1530,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-King.Slayer {
@@ -1480,9 +1540,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Bande.a.Pratchett {
@@ -1493,9 +1550,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Wallygator.s.Fan.Club {
@@ -1506,9 +1560,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-MEDEF {
@@ -1519,9 +1570,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Olympika.Massalia {
@@ -1532,9 +1580,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Granny.Awards {
@@ -1545,9 +1590,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Mithril.Little.Golems {
@@ -1558,9 +1600,6 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
 	margin-top: 5px
 }
 .avatar-logo-Skavenish.Inquisition {
@@ -1571,10 +1610,7 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
-  margin-top: 5px
+    margin-top: 5px
 }
 .avatar-logo-Revanyars {
 	background-image: url("./images/logos/Revanyars.png");
@@ -1584,9 +1620,156 @@ fieldset.polls dd div {
 	position:absolute;
 	height:90px;
 	width:90px; bottom:0px; right:0;
-
-
-
+	margin-top: 5px
+}
+.avatar-logo-Nibelheim.Persecutors {
+	background-image: url("./images/logos/Nibelheim Persecutors.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Spiritueux.Oublies {
+	background-image: url("./images/logos/Spiritueux Oublies.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-The_Expendables {
+	background-image: url("./images/logos/The_Expendables.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Gaulix {
+	background-image: url("./images/logos/Les Gaulix.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Lustria.Bootleggers {
+	background-image: url("./images/logos/Lustria Bootleggers.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Ia.Shub.Niggurath {
+	background-image: url("./images/logos/ia Shub Niggurath.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Ringolevio.Frogs {
+	background-image: url("./images/logos/Ringolevio Frogs.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Morts-back {
+	background-image: url("./images/logos/Morts-back.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Pets.Trolleurs {
+	background-image: url("./images/logos/Pets Trolleurs.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Garde.Lustrienne {
+	background-image: url("./images/logos/Garde Lustrienne.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Rancuniers {
+	background-image: url("./images/logos/Rancuniers.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Le.Krak.d.Vilneuv {
+	background-image: url("./images/logos/Lé Krak d'Vilneuv.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Deux.sous.de.jugeote {
+	background-image: url("./images/logos/Deux sous de jugeote.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Princes.des.Cendres{
+	background-image: url("./images/logos/Princes des Cendres.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
+	margin-top: 5px
+}
+.avatar-logo-Orklahoma.Drill{
+	background-image: url("./images/logos/Orklahoma Drill.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	z-index:3;
+	position:absolute;
+	height:90px;
+	width:90px; bottom:0px; right:0;
 	margin-top: 5px
 }
 
@@ -1613,7 +1796,7 @@ fieldset.polls dd div {
 	width:140px;
 }
 .profile-stars-RelaxMax {
-	background-image: url("./images/3e.png");
+	background-image: url("./images/4e.png");
 	background-repeat: no-repeat;
   background-position: left;
 	height:20px;
@@ -1640,6 +1823,53 @@ fieldset.polls dd div {
 	height:20px;
 	width:140px;
 }
+.profile-stars-Feuille2Chene {
+	background-image: url("./images/1e.png");
+	background-repeat: no-repeat;
+  background-position: left;
+	height:20px;
+	width:140px;
+}
+
+
+/* profile Guildes Champions */
+.profile-estars-Kien {
+	background-image: url("./images/1es.png");
+	background-repeat: no-repeat;
+  background-position: left;
+	height:20px;
+	width:140px;
+}
+.profile-estars-Cysterion {
+	background-image: url("./images/1es.png");
+	background-repeat: no-repeat;
+  background-position: left;
+	height:20px;
+	width:140px;
+}
+.profile-estars-Wallygator {
+	background-image: url("./images/1es.png");
+	background-repeat: no-repeat;
+  background-position: left;
+	height:20px;
+	width:140px;
+}
+.profile-estars-Sitasan {
+	background-image: url("./images/1es.png");
+	background-repeat: no-repeat;
+  background-position: left;
+	height:20px;
+	width:140px;
+}
+.profile-estars-Lamenoire_1 {
+	background-image: url("./images/1es.png");
+	background-repeat: no-repeat;
+  background-position: left;
+	height:20px;
+	width:140px;
+}
+
+
 
 . dd, . dt {
 	line-height: 1.2em;
