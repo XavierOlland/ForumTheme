@@ -1,0 +1,274 @@
+
+/* Guildes
+----------------------------------------*/
+.avatar-guilde {
+	z-index:0;
+	position:absolute;
+	height: 50px;
+	width: 50px;
+	bottom: 0;
+	right: 0;
+}
+.avatar-guilde.Compagnie.du.Lait {
+	background: url("/resources/guild/cdl.png") bottom right no-repeat;
+	background-size:cover;
+}
+.avatar-guilde.Gentlemans.Cabrioleurs {
+	background: url("/resources/guild/lgc.png") bottom right no-repeat;
+	background-size:cover;
+}
+.avatar-guilde.Old.School.Rules {
+	background: url("/resources/guild/osr.png") bottom right no-repeat;
+	background-size:cover;
+}
+.avatar-guilde.Comite.Contre.les.Nains {
+	background: url("/resources/guild/ccn.png") bottom right no-repeat;
+	background-size:cover;
+}
+.avatar-guilde.Association.de.Gens.Normals {
+	background: url("/resources/guild/agn.png") bottom right no-repeat;
+	background-size:cover;
+}
+
+.casque {
+	z-index:0;
+	position:absolute;
+	height: calc(100% - 10px);
+	width: calc(100% - 20px);
+	opacity:0.25;
+	right:0;
+	bottom:0;
+}
+.casque svg, .casque div {
+	position:absolute;
+	height:220px;
+	width:220px;
+	right:0;
+	bottom:0;
+}
+
+/* Casques base
+----------------------------------------*/
+div.casque-logo {
+	z-index:3;
+	position:absolute;
+	height: 80px;
+	width: 80px;
+	bottom: 70px;
+	right: 0px;
+}
+
+.casque-1 {	background: url('/resources/helmet/helmet_1.png') top left no-repeat; background-size:300px 300px; }
+.casque-2 {	background: url('/resources/helmet/helmet_2.png') top left no-repeat; background-size:300px 300px; }
+.casque-2 + .casque-logo { height: 40px !important; width: 40px !important; bottom: 80px !important; right: 55px !important;}
+.casque-3 {	background: url('/resources/helmet/helmet_3.png') top left no-repeat; background-size:300px 300px; }
+.casque-3 + .casque-logo { height: 32px !important; width: 32px !important; bottom: 20px !important; right: 50px !important;}
+.casque-4 {	background: url('/resources/helmet/helmet_4.png') top left no-repeat; background-size:300px 300px; }
+.casque-4 + .casque-logo { height: 70px !important; width: 70px !important; bottom: 85px !important; right: 10px !important;}
+.casque-5 {	background: url('/resources/helmet/helmet_5.png') top left no-repeat; background-size:300px 300px; }
+.casque-5 + .casque-logo { height: 65px !important; width: 65px !important; bottom: 85px !important; right: 0px !important;}
+.casque-6 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-7 {	background: url('/resources/helmet/helmet_7.png') top left no-repeat; background-size:300px 300px; }
+.casque-8 {	background: url('/resources/helmet/helmet_8.png') top left no-repeat; background-size:300px 300px; }
+.casque-8 + .casque-logo { bottom: 80px !important; right: 20px !important;}
+.casque-9 {	background: url('/resources/helmet/helmet_9.png') top left no-repeat; background-size:300px 300px; }
+.casque-9 + .casque-logo { height: 40px !important; width: 40px !important; bottom: 10px !important; right: 100px !important;}
+.casque-10 {	background: url('/resources/helmet/helmet_10.png') top left no-repeat; background-size:300px 300px; }
+.casque-10 + .casque-logo { right: 20px !important;}
+.casque-11 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-12 {	background: url('/resources/helmet/helmet_12.png') top left no-repeat; background-size:300px 300px; }
+.casque-13 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-14 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-15 {	background: url('/resources/helmet/helmet_15.png') top left no-repeat; background-size:300px 300px; }
+.casque-15 + .casque-logo { height: 65px !important; width: 65px !important; bottom: 68px !important; right: 5px !important;}
+.casque-16 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-17 {	background: url('/resources/helmet/helmet_10.png') top left no-repeat; background-size:300px 300px; }
+.casque-17 + .casque-logo { right: 20px !important;}
+.casque-18 {	background: url('/resources/helmet/helmet_18.png') top left no-repeat; background-size:300px 300px; }
+.casque-18 + .casque-logo { bottom: 80px !important; right: 20px !important;}
+.casque-19 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-20 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-21 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-22 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-23 {	background: url('/resources/helmet/helmet_0.png') top left no-repeat; background-size:300px 300px; }
+.casque-24 {	background: url('/resources/helmet/helmet_24.png') top left no-repeat; background-size:300px 300px; }
+
+
+
+/* Mettre à jour en utilisant le csss_creator */
+
+.casque-logo.coach53{ background: url('/resources/logo/Logo_Bretonnia_03.png') bottom right no-repeat; background-size:cover; }
+.color53-1{ fill:#D7D274; }
+.color53-2{ fill:#D7C024; }
+
+.casque-logo.coach71{ background: url('/resources/logo/Logo_WoodElf_15.png') bottom right no-repeat; background-size:cover; }
+.color71-1{ fill:#CEB40D; }
+.color71-2{ fill:#5E1712; }
+
+.casque-logo.coach67{ background: url('/resources/logo/Logo_Neutre_08.png') bottom right no-repeat; background-size:cover; }
+.color67-1{ fill:#731C17; }
+.color67-2{ fill:#194C9D; }
+
+.casque-logo.coach54{ background: url('/resources/logo/Logo_Neutre_22.png') bottom right no-repeat; background-size:cover; }
+.color54-1{ fill:#65100D; }
+.color54-2{ fill:#6A5043; }
+
+.casque-logo.coach50{ background: url('/resources/logo/Logo_WoodElf_05.png') bottom right no-repeat; background-size:cover; }
+.color50-1{ fill:#53236D; }
+.color50-2{ fill:#A77CB0; }
+
+.casque-logo.coach85{ background: url('/resources/logo/Logo_Neutre_28.png') bottom right no-repeat; background-size:cover; }
+.color85-1{ fill:#5579B3; }
+.color85-2{ fill:#1A4D9F; }
+
+.casque-logo.coach51{ background: url('/resources/logo/Logo_Neutre_15.png') bottom right no-repeat; background-size:cover; }
+.color51-1{ fill:#373737; }
+.color51-2{ fill:#E4B71B; }
+
+.casque-logo.coach56{ background: url('/resources/logo/Logo_Bretonnia_16.png') bottom right no-repeat; background-size:cover; }
+.color56-1{ fill:#34B250; }
+.color56-2{ fill:#8A0E0D; }
+
+.casque-logo.coach61{ background: url('/resources/logo/Logo_Neutre_01.png') bottom right no-repeat; background-size:cover; }
+.color61-1{ fill:#D9C327; }
+.color61-2{ fill:#373737; }
+
+.casque-logo.coach75{ background: url('/resources/logo/Logo_Neutre_22.png') bottom right no-repeat; background-size:cover; }
+.color75-1{ fill:#373737; }
+.color75-2{ fill:#B9AA4F; }
+
+.casque-logo.coach62{ background: url('/resources/logo/Logo_DarkElf_20.png') bottom right no-repeat; background-size:cover; }
+.color62-1{ fill:#19448B; }
+.color62-2{ fill:#240643; }
+
+.casque-logo.coach66{ background: url('/resources/logo/Logo_Skaven_17.png') bottom right no-repeat; background-size:cover; }
+.color66-1{ fill:#373737; }
+.color66-2{ fill:#806D4D; }
+
+.casque-logo.coach74{ background: url('/resources/logo/Logo_Orc_07.png') bottom right no-repeat; background-size:cover; }
+.color74-1{ fill:#54246E; }
+.color74-2{ fill:#D4B815; }
+
+.casque-logo.coach76{ background: url('/resources/logo/Logo_Human_12.png') bottom right no-repeat; background-size:cover; }
+.color76-1{ fill:#991C18; }
+.color76-2{ fill:#E9E9E9; }
+
+.casque-logo.coach65{ background: url('/resources/logo/Logo_Lizardman_11.png') bottom right no-repeat; background-size:cover; }
+.color65-1{ fill:#971512; }
+.color65-2{ fill:#D5CA00; }
+
+.casque-logo.coach59{ background: url('/resources/logo/Logo_DarkElf_15.png') bottom right no-repeat; background-size:cover; }
+.color59-1{ fill:#373737; }
+.color59-2{ fill:#670F0D; }
+
+.casque-logo.coach80{ background: url('/resources/logo/Logo_Dwarf_15.png') bottom right no-repeat; background-size:cover; }
+.color80-1{ fill:#686868; }
+.color80-2{ fill:#B9AA4F; }
+
+.casque-logo.coach58{ background: url('/resources/logo/Logo_WoodElf_04.png') bottom right no-repeat; background-size:cover; }
+.color58-1{ fill:#2B5CAC; }
+.color58-2{ fill:#E9E9E9; }
+
+.casque-logo.coach97{ background: url('/resources/logo/Logo_Human_20.png') bottom right no-repeat; background-size:cover; }
+.color97-1{ fill:#880000; }
+.color97-2{ fill:#FFFFFF; }
+
+.casque-logo.coach99{ background: url('/resources/logo/Logo_Chaos_09.png') bottom right no-repeat; background-size:cover; }
+.color99-1{ fill:#4B7FE1; }
+.color99-2{ fill:#D89038; }
+
+.casque-logo.coach68{ background: url('/resources/logo/Logo_Neutre_04.png') bottom right no-repeat; background-size:cover; }
+.color68-1{ fill:#A8232D; }
+.color68-2{ fill:#EEEEEE; }
+
+.casque-logo.coach69{ background: url('/resources/logo/Logo_Neutre_03.png') bottom right no-repeat; background-size:cover; }
+.color69-1{ fill:#9C8577; }
+.color69-2{ fill:#FFFFFF; }
+
+.casque-logo.coach72{ background: url('/resources/logo/Logo_Undead_12.png') bottom right no-repeat; background-size:cover; }
+.color72-1{ fill:#E34047; }
+.color72-2{ fill:#FFFFFF; }
+
+.casque-logo.coach78{ background: url('/resources/logo/Logo_Lizardman_19.png') bottom right no-repeat; background-size:cover; }
+.color78-1{ fill:#639658; }
+.color78-2{ fill:#FFD972; }
+
+.casque-logo.coach85{ background: url('/resources/logo/Logo_Neutre_28.png') bottom right no-repeat; background-size:cover; }
+.color85-1{ fill:#00558D; }
+.color85-2{ fill:#F68525; }
+
+.casque-logo.coach108{ background: url('/resources/logo/Logo_Neutre_30.png') bottom right no-repeat; background-size:cover; }
+.color108-1{ fill:#636363; }
+.color108-2{ fill:#AA0000; }
+
+.casque-logo.coach104{ background: url('/resources/logo/Logo_Orc_03.png') bottom right no-repeat; background-size:cover; }
+.color104-1{ fill:#FF5C21; }
+.color104-2{ fill:#000000; }
+
+.casque-logo.coach103{ background: url('/resources/logo/Logo_Skaven_01.png') bottom right no-repeat; background-size:cover; }
+.color103-1{ fill:#D366AF; }
+.color103-2{ fill:#423DA5; }
+
+.casque-logo.coach100{ background: url('/resources/logo/Logo_Dwarf_06.png') bottom right no-repeat; background-size:cover; }
+.color100-1{ fill:#C6BCC5; }
+.color100-2{ fill:#4B4246; }
+
+.casque-logo.coach102{ background: url('/resources/logo/Logo_Neutre_10.png') bottom right no-repeat; background-size:cover; }
+.color102-1{ fill:#CCCCCC; }
+.color102-2{ fill:#1C8626; }
+
+.casque-logo.coach72{ background: url('/resources/logo/Logo_Undead_12.png') bottom right no-repeat; background-size:cover; }
+.color72-1{ fill:#7C252C; }
+.color72-2{ fill:#DDDDDD; }
+
+.casque-logo.coach114{ background: url('/resources/logo/Logo_Bretonnia_13.png') bottom right no-repeat; background-size:cover; }
+.color114-1{ fill:#F68525; }
+.color114-2{ fill:#73383A; }
+
+.casque-logo.coach60{ background: url('/resources/logo/Logo_Necromantic_09.png') bottom right no-repeat; background-size:cover; }
+.color60-1{ fill:#CCCCCC; }
+.color60-2{ fill:#000000; }
+
+.casque-logo.coach48{ background: url('/resources/logo/Logo_Necromantic_14.png') bottom right no-repeat; background-size:cover; }
+.color48-1{ fill:#776947; }
+.color48-2{ fill:#C6C59F; }
+
+.casque-logo.coach63{ background: url('/resources/logo/Logo_DarkElf_08.png') bottom right no-repeat; background-size:cover; }
+.color63-1{ fill:#D7DC10; }
+.color63-2{ fill:#000000; }
+
+.casque-logo.coach86{ background: url('/resources/logo/Logo_Neutre_10.png') bottom right no-repeat; background-size:cover; }
+.color86-1{ fill:#79B847; }
+.color86-2{ fill:#00558D; }
+
+.casque-logo.coach{ background: url('/resources/logo/Logo_Norse_02.png') bottom right no-repeat; background-size:cover; }
+.color-1{ fill:#FFFFFF; }
+.color-2{ fill:#000000; }
+
+.casque-logo.coach70{ background: url('/resources/logo/Logo_Undead_11.png') bottom right no-repeat; background-size:cover; }
+.color70-1{ fill:#C65C3C; }
+.color70-2{ fill:#F68525; }
+
+.casque-logo.coach112{ background: url('/resources/logo/Logo_Neutre_16.png') bottom right no-repeat; background-size:cover; }
+.color112-1{ fill:#4C7F3D; }
+.color112-2{ fill:#603F00; }
+
+.casque-logo.coach96{ background: url('/resources/logo/Logo_HighElf_02.png') bottom right no-repeat; background-size:cover; }
+.color96-1{ fill:#FFD700; }
+.color96-2{ fill:#F68525; }
+
+.casque-logo.coach52{ background: url('/resources/logo/Logo_Custom/LesRhinos.png') bottom right no-repeat; background-size:cover; }
+.color52-1{ fill:#550404; }
+.color52-2{ fill:#94A3A6; }
+
+.casque-logo.coach105{ background: url('/resources/logo/Logo_WoodElf_11.png') bottom right no-repeat; background-size:cover; }
+.color105-1{ fill:#D3C048; }
+.color105-2{ fill:#9A3745; }
+
+.casque-logo.coach122{ background: url('/resources/logo/Logo_Human_15.png') bottom right no-repeat; background-size:cover; }
+.color122-1{ fill:#373737; }
+.color122-2{ fill:#B9AA4F; }
+
+.casque-logo.coach84{ background: url('/resources/logo/Logo_Undead_12.png') bottom right no-repeat; background-size:cover; }
+.color84-1{ fill:#14A025; }
+.color84-2{ fill:#000000; }

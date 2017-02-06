@@ -124,42 +124,70 @@
 	<!-- ENDIF -->
 	<div id="p{postrow.POST_ID}" class="post has-profile <!-- IF postrow.S_ROW_COUNT is odd -->bg1<!-- ELSE -->bg2<!-- ENDIF --><!-- IF postrow.S_UNREAD_POST --> unreadpost<!-- ENDIF --><!-- IF postrow.S_POST_REPORTED --> reported<!-- ENDIF --><!-- IF postrow.S_POST_DELETED --> deleted<!-- ENDIF --><!-- IF postrow.S_ONLINE and not postrow.S_POST_HIDDEN --> online<!-- ENDIF --><!-- IF postrow.POSTER_WARNINGS --> warned<!-- ENDIF -->">
 		<!-- BEGIN custom_fields -->
-		<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Guilde" --><div class="non-responsive avatar-guilde2-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div><!-- ENDIF -->
+		<!-- IF postrow.custom_fields.PROFILE_FIELD_IDENT eq "race" -->
+		<div class="non-responsive casque" >
+			<svg viewBox="0 0 220 220">
+			<!-- IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "2" -->
+				<path class="color{postrow.POSTER_ID}-1" d="M140,49.1245983 C208.096898,46.2061599 229.325527,95.4394807 233,104.124598 C244,130.124598 233,131.124598 219,157.124598 L243,157.124598 L256,191.124598 L260,196.124598 L261,205.124598 L266,211.124598 L266,215.124598 L274,220.124598 C230,223.124598 151,214.124598 79,242.124598 L78,235.124598 L40,243.124598 L40,209.124598 L32,208.124598 L33,193.124598 L31,189.124598 L56,140.124598 C56,140.124598 59.2285206,114.105019 51,109.124598 C64,76.1245983 70,52.1245983 140,49.1245983 Z"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "3" -->
+				<path class="color{postrow.POSTER_ID}-1" d="M18,128 C17.0459774,126.091955 27,126 27,126 L59,106 C59,106 55,100 55,98 C57,97 59.2405026,100.322734 62,99 C112,66 176,40 176,40 L179,54 L212,50 L229,48 L229,69 C229,69 239.375912,79.7645023 247,91 C253,92 248,97 248,97 L267,134 L265,136 L278,172 C278,172 259,182 253,185 C246,186 240,188 236,190 C236,187 216,196 212,196 C206,190 207,181 197,168 C192,149 184.453634,135.931997 177,125 C184.453634,107 179,79 179,79 L34,140 C34,140 18,135 18,128 Z" id="Path-5"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "9" -->
+				<path class="color{postrow.POSTER_ID}-1" d="M68,266 L34,157 C34,157 99.4838018,159 101,159 C101.286584,159 115,146 115,141.5 C99,121 57,129 45,157 C42.5494516,157.506447 40,157 40,157 L71,93 L78,103 L125,32 L125,43 L131,40 L134,50 C134,50 162,27 170,17 C172,20 167,37 167,37 L219,35 C219,35 221,34 226,29 C225,51 213,57 213,57 C213,57 233,77 265,88 L258,97 L248,99 C248,99 254,118 269,135 C269.944111,137.242263 264,137 264,137 L260,134 L256,138 C256,138 259,163 266,177 C263,179 256,175 256,175 L256,216 L245,212 L240,253 L234,247 L234,241 L229,240 C229,240 221,245 214,252 C214,244 208,222 176,210 C176,210 164,220 161,220 C161,220 168,200 162,180 C153,188 149,185 147,218 C141,220 120,215 114,241 C105,239 79,237 68,266 Z" id="Combined-Shape"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "10" -->
+				<path class="color{postrow.POSTER_ID}-1" d="M159,49 C227.096898,46.0815615 257,96 257,132 C257,168 245,202 235,216 C198,219 186,220 170,237 C144,260 118,250 118,250 C118,250 102,244 102,224 C106.828717,220 170,152 76,122 C78,106 89,52 159,49 Z" id="Path"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "12" -->
+				<path class="color{postrow.POSTER_ID}-2" d="M172,171 C173,198 179,222 146,255 C186,245 261,206 261,206 L262,184 C262,184 204,164 172,171 Z"></path>
+				<path class="color{postrow.POSTER_ID}-1" d="M159,49.1245983 C227.096898,46.2061599 248.325527,95.4394807 252,104.124598 C263,130.124598 262,168.124598 252,170.124598 C226,168.124598 149,176.124598 73,130.124598 C86,97.1245983 89,52.1245983 159,49.1245983 Z"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "15" -->
+				<path class="color{postrow.POSTER_ID}-1" d="M156,41.1245983 C224.096898,38.2061599 245.325527,87.4394807 249,96.1245983 C252.310751,103.95001 265,157.124598 265,157.124598 L249,157.124598 C249,157.124598 256,189.124598 262,201.124598 C262,201.124598 236.929419,212.738715 235,213.124598 C209,211.124598 182,213.124598 182,213.124598 C176.748804,216.333662 160,190.124598 160,190.124598 L144,195.124598 L155.429768,224.124598 C155.429768,224.124598 80,262.124598 64,250.124598 C74.5016878,221.124598 62.7980368,187.751756 64,171.124598 C96,173.124598 106,144.124598 106,144.124598 C106,144.124598 71,119.124598 58,138.124598 C60,112.124598 70,88.1245983 85,63.1245983 C85,63.1245983 87.2828072,77.1939869 88.8024737,74.688391 C99.6176662,56.8565171 117.867755,42.7588374 156,41.1245983 Z" id="Path"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "17" -->
+				<path class="color{postrow.POSTER_ID}-1" d="M159,49 C227.096898,46.0815615 257,96 257,132 C257,168 245,202 235,216 C198,219 186,220 170,237 C144,260 118,250 118,250 C118,250 102,244 102,224 C106.828717,220 170,152 76,122 C78,106 89,52 159,49 Z" id="Path"></path>
+			<!-- ELSE IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "24" -->
+				<path class="color{postrow.POSTER_ID}-2" d="M97,69 C106,15 181.83119,-1.87956712 220,12 C231,16 263,36 292,33 C292,33 283,53 263,54 C328,115 263,161 287,223 C272,219 263,205 263,205 C263,205 277,251 251,291 C263,144 85.9931278,138.262757 97,69 Z" id="Path-2" fill="#79B424"></path>
+				<path class="color{postrow.POSTER_ID}-1" d="M158,49 C226.096898,46.0815615 256,96 256,132 C256,156.794103 250.307893,180.639521 243.497359,197.65581 C240.419283,205.346461 251,213 234,219 C194.502641,222 185,220 169,237 C143,260 117,250 117,250 C117,250 101,244 101,224 C105.828717,220 169,152 75,122 C77,106 88,52 158,49 Z" id="Path"></path>
+			<!-- ELSE -->
+				<path class="color{postrow.POSTER_ID}-1" d="M158,49 C226.096898,46.0815615 256,96 256,132 C256,156.794103 250.307893,180.639521 243.497359,197.65581 C240.419283,205.346461 251,213 234,219 C194.502641,222 185,220 169,237 C143,260 117,250 117,250 C117,250 101,244 101,224 C105.828717,220 169,152 75,122 C77,106 88,52 158,49 Z" id="Path"></path>
+			<!-- ENDIF -->
+			</svg>
+			<div class="non-responsive casque-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div>
+			<div class="non-responsive casque-logo coach{postrow.POSTER_ID}"></div>
+		</div>
+		<!-- ENDIF -->
 		<!-- END custom_fields -->
 		<div class="inner">
 
-		<dl class="postprofile" id="profile{postrow.POST_ID}"<!-- IF postrow.S_POST_HIDDEN --> style="display: none;"<!-- ENDIF -->>
+		<dl class="postprofile" id="profile{postrow.POST_ID}" <!-- IF postrow.S_POST_HIDDEN --> style="display: none;"<!-- ENDIF -->>
 			<dt class="<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG -->has-profile-rank<!-- ELSE -->no-profile-rank<!-- ENDIF --> <!-- IF postrow.POSTER_AVATAR -->has-avatar<!-- ELSE -->no-avatar<!-- ENDIF -->">
 
 				<div class="avatar-container">
 
 					<!-- EVENT viewtopic_body_avatar_before -->
 					<!-- IF postrow.POSTER_AVATAR -->
-						<!-- IF postrow.U_POST_AUTHOR --><a href="{postrow.U_POST_AUTHOR}" class="avatar">{postrow.POSTER_AVATAR}</a><!-- ELSE --><span class="avatar">{postrow.POSTER_AVATAR}</span><!-- ENDIF -->
+						<!-- IF postrow.U_POST_AUTHOR -->
+							<a href="{postrow.U_POST_AUTHOR}" class="avatar">{postrow.POSTER_AVATAR}</a>
+						<!-- ELSE -->
+							<span class="avatar">{postrow.POSTER_AVATAR}</span>
+						<!-- ENDIF -->
 					<!-- ENDIF -->
 
-					<div class="non-responsive avatar-rank-{postrow.RANK_TITLE}"></div>
 					<!--<div class="avatar-group-{postrow.POSTER_GROUP}"></div>-->
 
 					<!-- BEGIN custom_fields -->
-					<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Champion" --><div class="non-responsive avatar-champ-back-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div><!-- ENDIF -->
-					<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Champion" --><div class="non-responsive avatar-champ-front-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div><!-- ENDIF -->
-					<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Guilde" --><div class="non-responsive avatar-guilde-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div><!-- ENDIF -->
-					<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Equipe" --><div class="non-responsive avatar-equipe-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div><!-- ENDIF -->
-					<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Equipe" --><div class="non-responsive avatar-logo-{postrow.custom_fields.PROFILE_FIELD_VALUE}"></div><!-- ENDIF -->
+						<!-- IF postrow.custom_fields.PROFILE_FIELD_NAME eq "Guilde" -->
+							<div class="non-responsive avatar-guilde {postrow.custom_fields.PROFILE_FIELD_VALUE}"></div>
+						<!-- ENDIF -->
 					<!-- END custom_fields -->
 
 					<!-- EVENT viewtopic_body_avatar_after -->
 				</div>
 				<!-- EVENT viewtopic_body_post_author_before -->
-				<!-- IF not postrow.U_POST_AUTHOR --><strong>{postrow.POST_AUTHOR_FULL}</strong><!-- ELSE -->{postrow.POST_AUTHOR_FULL}<!-- ENDIF -->
 				<!-- EVENT viewtopic_body_post_author_after -->
 			</dt>
 
-			<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG --><!--<dd class="profile-rank">--><!-- IF postrow.RANK_TITLE and postrow.RANK_IMG --><!-- ENDIF --><!--{postrow.RANK_IMG}</dd>--><!-- ENDIF -->
-						<dd class="profile-stars-{postrow.POST_AUTHOR}"></dd>
-						<dd class="profile-estars-{postrow.POST_AUTHOR}"></dd>
-					</br>
+			<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG --><!--<dd class="profile-rank">-->
+			<!-- IF postrow.RANK_TITLE and postrow.RANK_IMG --><!-- ENDIF --><!--{postrow.RANK_IMG}</dd>--><!-- ENDIF -->
+
+
 		<!-- IF postrow.POSTER_WARNINGS --><dd class="profile-warnings"><strong>{L_WARNINGS}{L_COLON}</strong> {postrow.POSTER_WARNINGS}</dd><!-- ENDIF -->
 
 		<!-- IF postrow.S_PROFILE_FIELD1 -->
@@ -170,7 +198,20 @@
 		<!-- EVENT viewtopic_body_postrow_custom_fields_before -->
 		<!-- BEGIN custom_fields -->
 			<!-- IF not postrow.custom_fields.S_PROFILE_CONTACT -->
-				<dd class="profile-custom-field profile-{postrow.custom_fields.PROFILE_FIELD_IDENT}"><strong>{postrow.custom_fields.PROFILE_FIELD_NAME}{L_COLON}</strong> {postrow.custom_fields.PROFILE_FIELD_VALUE}</dd>
+				<dd class="profile-custom-field profile-{postrow.custom_fields.PROFILE_FIELD_IDENT}
+									<!-- IF postrow.custom_fields.PROFILE_FIELD_IDENT eq "champion" --> font-champion<!-- ENDIF -->
+									<!-- IF postrow.custom_fields.PROFILE_FIELD_IDENT eq "equipe" --> font-equipe-{postrow.RANK_TITLE}<!-- ENDIF -->">
+									<!-- IF postrow.custom_fields.PROFILE_FIELD_IDENT eq "titres"-->
+										<!-- IF postrow.custom_fields.PROFILE_FIELD_VALUE >0 --><img src="styles/ForumTheme/theme/images/{postrow.custom_fields.PROFILE_FIELD_VALUE}e.png"></img><!-- ENDIF -->
+									<!-- ELSEIF postrow.custom_fields.PROFILE_FIELD_IDENT eq "guilde_champion"-->
+										<!-- IF postrow.custom_fields.PROFILE_FIELD_VALUE eq "oui"--><img class="profile-guilde-champion" src="styles/ForumTheme/theme/images/1es.png"></img><!-- ENDIF -->
+											{postrow.POST_AUTHOR_FULL}
+									<!-- ELSEIF postrow.custom_fields.PROFILE_FIELD_IDENT eq "race"-->
+									<!-- ELSE -->
+										{postrow.custom_fields.PROFILE_FIELD_VALUE}
+									<!-- ENDIF -->
+				</dd>
+
 			<!-- ENDIF -->
 		<!-- END custom_fields -->
 		<!-- EVENT viewtopic_body_postrow_custom_fields_after -->
@@ -179,7 +220,8 @@
 		<!-- IF not S_IS_BOT and .postrow.contact -->
 			<dd class="profile-contact">
 				<div>
-				<strong>{L_CONTACT}{L_COLON}</strong>
+				<br/>
+				{L_CONTACT}{L_COLON}
 						<!-- BEGIN contact -->
 							{% set REMAINDER = postrow.contact.S_ROW_COUNT % 4 %}
 							<!-- DEFINE $S_LAST_CELL = ((REMAINDER eq 3) or (postrow.contact.S_LAST_ROW and postrow.contact.S_NUM_ROWS < 4)) -->
@@ -251,7 +293,8 @@
 			</p>
 			<!-- ENDIF -->
 
-			<div class="content">{postrow.MESSAGE}</div>
+			<div class="content">
+		{postrow.MESSAGE}</div>
 
 			<!-- IF postrow.S_HAS_ATTACHMENTS -->
 				<dl class="attachbox">

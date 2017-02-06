@@ -15,8 +15,7 @@ a:hover	{  }
 	font-weight: bold;
 	display: inline !important;
 	padding: 0 !important;
-	vertical-align: top;
-	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	vertical-align: intitial;
 }
 
 /* Links on gradient backgrounds */
@@ -101,8 +100,7 @@ a.lastsubject:hover {
 .postprofile a, .postprofile dt.author a {
 	font-weight: bold;
 	text-decoration: none;
-	font-size: 14px;
-	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	font-size: 16px;
 }
 
 .postprofile dt.author a {

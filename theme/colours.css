@@ -640,23 +640,18 @@ fieldset.polls dd div {
 ----------------------------------------*/
 .postprofile {
 	color: #646464;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .postprofile dd {
-	color: #646464;
-	font-size: 12px;
-	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+	color: #ffffff;
+	font-size: 12px; !important
 }
 
 .pm .postprofile {
 }
 
-.postprofile strong {
-	color: #FFFFFF;
-	font-size: 12px;
-	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
-}
+
 
 .online {
 	background-image: url("./en/icon_user_online.gif");
@@ -1187,6 +1182,17 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 li.notification-reported strong, li.notification-disapproved strong {
 	color: #D31141;
 }
+
+
+/*LLT Signature*/
+.font-equipe-Elite a { color: #FFD700 !important; font-size: 14px !important; font-weight:bold; line-height: 18px; }
+.font-equipe-Elite a:hover { text-decoration: underline; }
+.font-equipe-Prestige a { color: #C0C0C0 !important; font-size: 14px !important; font-weight:bold; line-height: 18px; }
+.font-equipe-Prestige a:hover { text-decoration: underline; }
+.font-equipe-Espoir a { color: #CD7F32 !important; font-size: 14px !important; font-weight:bold; line-height: 18px; }
+.font-equipe-Espoir a:hover { text-decoration: underline; }
+
+.font-champion { color: #FFD700 !important; font-size: 14px !important; font-weight:bold; line-height: 18px;}
 
 
 /* HALLOWEEN */ /*
